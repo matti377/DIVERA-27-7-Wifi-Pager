@@ -37,7 +37,7 @@ This project allows you to build your own WiFi pager that integrates with the DI
    - Connect **RGB pins** to the Wemos D1 Mini's **D7, D8, and D5** pins (for Red, Green, and Blue control).
 
 3. **Battery and Charging Module**:
-   - Connect **B+** and **B-** from the charging board to the **3V3** and **GND** of the Wemos D1 Mini.
+   - Connect **B+** and **B-** from the charging board to the **3V3** and **GND** of the battery.
    - The **OUT+** and **OUT-** pins of the charging board should be connected to the **VCC** and **GND** of the LCD.
 
 4. **Buzzer**:
