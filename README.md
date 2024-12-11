@@ -129,3 +129,30 @@ This project allows you to build your own WiFi pager that integrates with the DI
 
 - **API Data**:
   - If no data is fetched, ensure your API key is correct and that the DIVERA service is available.
+  - 
+  Here's a credit section for your README, including references to relevant sources:
+
+---
+
+## Credits
+
+This project uses several open-source libraries and resources to integrate with external services and hardware components:
+
+- **API Documentation**:  
+  The API for fetching emergency data is provided by [Divera247](https://api.divera247.com/#/Einsatzinformationen%20abrufen/get_api_last_alarm).
+
+- **WiFi Setup**:  
+  - The connection to the WiFi router is based on the tutorial from [Instructables: IoT ESP8266 Series - Connect to WiFi Router](https://www.instructables.com/IoT-ESP8266-Series-1-Connect-to-WIFI-Router/).
+  - For ESP32 Web Server configuration, reference [ESP32IO Tutorial: ESP32 Web Server](https://esp32io.com/tutorials/esp32-web-server).
+
+- **HTTP GET Requests**:  
+  - The HTTP requests in the project are handled using the [ArduinoJson HTTPClient guide](https://arduinojson.org/v6/how-to/use-arduinojson-with-httpclient/).
+  - For detailed instructions on how to make HTTP requests in Arduino, refer to [Arduino Get Started: HTTP Requests](https://arduinogetstarted.com/tutorials/arduino-http-request).
+
+- **LCD Display**:  
+  The display functionality is based on the [Waveshare LCD1602 RGB Module documentation](https://www.waveshare.com/wiki/LCD1602_RGB_Module).
+
+- **Buzzer Integration**:  
+  The use of the buzzer in this project is inspired by the guide on [How to Use a Buzzer](https://www.ardumotive.com/how-to-use-a-buzzer-en.html).
+
+Thank you to the open-source community for providing these valuable resources!
