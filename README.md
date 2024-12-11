@@ -1,4 +1,4 @@
-# DIVERA-27-7-Wifi-Pager
+# DIVERA 24/7 Wifi Pager
 
 ## Overview
 
